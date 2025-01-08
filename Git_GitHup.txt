@@ -8,3 +8,7 @@
 7-commit store  (yani versiyon oluşturduğumuz yer)  daki   versiyonlarımızı   görmek  için      de git log --oneline komutunu kullanırız.
 8-Oluşturmuş olduğumuz versiyonu github'a gönderebilmek için git push <github repository adresi> ya da devamlı kullanacağımız bir repoysa 1 kerelik --> git remote add origin <repo adresi> sonra --> git push -u master komutuyla github'a gönderebiliriz.
 9-Github'a gönderdiğimiz kodları da başka bir çalışma ortamına çekebilmek için git pull <github repo adresi> yazarak çekebiliriz.
+10- Localimizde ilişkilendirdiğimiz adresi git remote -v komutuyla gönderebiliriz.
+11-Github tarafında yaptığımız bir değişlik olursa adresi bir kerelik tanımladığımız için sadece git pull yapmamız yeterlidir.
+Aynı şekilde adresi tanımladığımız için sadece git push komutu ile de kodlarımızı gönderebiliriz
+
