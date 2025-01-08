@@ -6,3 +6,4 @@
 5- git commit -m"version adı" (genellikle tarih yazılır ‘m’ den sonra boşluk olmamasının önemi yoktur) kodunu yazarak stage'deki kodlarımızdan version oluşturmuş oluruz.
 6-working space ve stage'de kodlarımızın durumunu görmek için git status komutunu kullanırız.
 7-commit store  (yani versiyon oluşturduğumuz yer)  daki   versiyonlarımızı   görmek  için      de git log --oneline komutunu kullanırız.
+8-Oluşturmuş olduğumuz versiyonu github'a gönderebilmek için git push <github repository adresi> ya da devamlı kullanacağımız bir repoysa 1 kerelik --> git remote add origin <repo adresi> sonra --> git push -u master komutuyla github'a gönderebiliriz.
